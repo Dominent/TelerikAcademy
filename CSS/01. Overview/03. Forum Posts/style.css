@@ -1,0 +1,94 @@
+/*--------   General   --------*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #A9A9A9;
+}
+
+/*--------   Header   --------*/
+
+nav {
+    height: 40px;
+    background: #d9d9d9;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+nav > ul > li {
+    display: inline;
+    float: right;
+    border-left: 1px solid #c9c9c9;
+    margin: 0 5px;
+    padding: 11px;
+}
+
+nav > h1 {
+    display: inline;
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+nav > ul > li >a:hover,
+nav > ul > li >a:link,
+nav > ul > li >a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav > ul > li >a:hover {
+    color: #A9A9A9;
+}
+
+/*--------   Section   --------*/
+
+section {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section > article {
+    background: #d9d9d9;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+
+section > article > header {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+section > article > p {
+    padding: 5px;
+    height: 100px;
+    overflow-y: scroll;
+    color: #fff;
+}
+
+section > article > footer {
+    padding: 5px;
+    text-align: center;
+}
+
+/*--------   Footer   --------*/
+
+#footer-end {
+    width: 100%;
+    height: 60px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 240px;
+    position: fixed;
+    padding: 10px 0px;
+}
+

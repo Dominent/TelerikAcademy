@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 97%;
+    background: black;
+    border-radius: 90px;
+    border: 2px solid red;
+}

@@ -1,0 +1,98 @@
+#root {
+  width: 1024px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 30px 95px; }
+
+body, div, h1, ul, li, a {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  display: none; }
+
+ul, li {
+  list-style-type: none; }
+
+img {
+  width: 150px;
+  height: 160px;
+  display: none; }
+
+li {
+  width: 100px;
+  height: 30px;
+  padding-left: 22px;
+  border-bottom: 1px solid black;
+  margin-top: 9px; }
+
+/*----------------------------------------------------------------*/
+#site-header::before {
+  display: inline-block;
+  background: url(../imgs/logo.png) center no-repeat;
+  content: "";
+  background-size: 100%;
+  width: 65px;
+  height: 25px;
+  margin-left: -70px;
+  margin-right: 3px; }
+
+/*----------------------------------------------------------------*/
+#root > ul > li:nth-child(1) {
+  margin-top: 0px; }
+
+#root > ul > li:nth-child(5) {
+  border-bottom: none; }
+
+.superheroes {
+  margin-top: 30px;
+  width: 120px;
+  display: inline-block;
+  margin-left: -33px; }
+
+/*----------------------------------------------------------------*/
+#root > ul > li > img {
+  width: 155px;
+  height: 155px;
+  border: 3px solid #973A3A;
+  border-radius: 20px; }
+
+.hero-header:hover {
+  text-shadow: 2px 2px #973A3A; }
+
+.hero-header:hover::before {
+  background: url(../imgs/logo.png) center no-repeat;
+  content: "";
+  background-size: 100%;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-left: -20px; }
+
+.hero-header:hover + img {
+  display: inline-flex;
+  margin-left: 100px;
+  position: fixed;
+  top: 80px;
+  right: 610px; }
+
+.hero-header:hover + img + a {
+  color: #FFFFF6;
+  display: inline-block;
+  background-color: #535353;
+  opacity: 0.7;
+  width: 155px;
+  height: 19px;
+  border: 3px solid #777;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  text-decoration: underline;
+  position: fixed;
+  top: 220px;
+  right: 610px; }
+
+/*----------------------------------------------------------------*/
+
+/*# sourceMappingURL=main.css.map */

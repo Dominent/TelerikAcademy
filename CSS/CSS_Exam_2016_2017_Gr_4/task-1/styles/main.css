@@ -1,0 +1,214 @@
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin: 30px;
+  width: 270px;
+}
+
+#wrapper {
+  background: #E6E6E6;
+  height: 505px;
+  margin-top: -15px;
+
+}
+html, body, img, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+img {
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+/* wow much amaze no time */
+
+#avatar {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.user-info {
+  margin-left: 65px;
+  margin-top: -10px;
+}
+
+#main-info > h2 {
+  font-size: 18px;
+  margin-top: -15px;
+  margin-left: 30px;
+}
+
+#main-info > a {
+  font-size: 13px;
+  margin-left: 2px;
+  float: left;
+  margin-top: -5px;
+  
+}
+
+
+#label {
+    width: 30px;
+    height: 18px;
+    background: #6CC644;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 1px;
+    margin-left: 32px;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 3px;
+    float: left;
+}
+
+
+#location > span {
+  clear: both;
+  position: relative;
+  top: 30px;
+  left: -95px;
+}
+
+#location > p {
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+#mail > span {
+  margin-left: -18px;
+  position: relative;
+  top: -3px;
+}
+
+#mail > p > a {
+  font-size: 14px;
+  position: relative;
+  top: -38px;
+  margin-left: 5px;
+}
+
+#joined > p {
+  font-size: 14px;
+  margin-top: -45px;
+  margin-left: 10px;
+}
+
+#joined > span {
+    float: left;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+
+#git-info > div {
+  display: inline-block;
+  font-size: 10px;
+}
+
+#git-info > div>span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4078C7;
+}
+
+#git-info > div.followers>span {
+  float: left;
+  display: block;
+  margin-top: 14px;
+  margin-left: -15px;
+  text-align: initial;
+
+}
+
+#git-info > div.starred {
+  margin-left: -10px;
+  margin-top: 5px;
+}
+
+#git-info > div.following {
+  margin-left: 20px;
+}
+
+#git-info > div.followers {
+  display: flex;
+  flex-direction: column;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+#git-info > div.starred {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    margin-top: -45px;
+}
+
+#git-info > div.starred> span {
+  margin-left: 5px;
+}
+
+#git-info > div.following {
+      float: left;
+      display: flex;
+      flex-direction: column;
+      margin-left: 140px;
+      margin-top: -48px;
+}
+
+#git-info > div.following> span {
+  margin-left: 12px;
+  margin-top: 2px;
+}
+  
+a {
+  color: #45ACDE;
+}
+
+h2 {
+  color: #666;
+}
+
+#location > span,
+#mail > span,
+#joined > span {
+  color: #999;
+}
+
+#main-info::after {
+  display: block;
+  content: "";
+  width: 250px;
+  height: 2px;
+  position: relative;
+  background: #EEE;
+  top: 20px;
+  align-items: center;
+  right: 55px;
+}
+
+#git-info::before {
+    display: block;
+    content: "";
+    width: 250px;
+    height: 2px;
+    position: relative;
+    background: #EEE;
+    top: -3px;
+    align-items: center;
+    right: 55px;
+}
+
+#main-info > h1 {
+  letter-spacing: 0.5px;
+}
+
+#label {
+  font-weight: lighter;
+}

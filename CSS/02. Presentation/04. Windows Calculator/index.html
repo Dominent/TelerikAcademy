@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Windows Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header id="navigation">
+           <div id="title">
+               <img src="images/Icon.png" alt="glyph icon">
+               <p>Calculator</p>
+           </div>
+            <div id="header-buttons">
+                <img src="images/Minimize.png" alt="minimize icon">
+                <img src="images/Maximize.png" alt="maximize icon">
+                <img src="images/Close.png" alt="close icon">
+            </div>
+        </header>
+        <main>
+            <header id="menu-header">
+                <span> <p>V</p>iew </span>
+                <span> <p>E</p>dit </span>
+                <span> <p>H</p>elp </span>
+            </header>
+            <div class="content">
+                <div class="output-window">
+                    <p>8854455</p>
+                </div>
+                <div class="binary output-window">
+                    <div class="binary-text">0000&nbsp&nbsp&nbsp0000&nbsp&nbsp&nbsp0000&nbsp&nbsp&nbsp0000&nbsp&nbsp&nbsp0000&nbsp&nbsp&nbsp0000&nbsp&nbsp&nbsp0000&nbsp&nbsp&nbsp0000</div>
+                    <div class="decimal">
+                        <p>63</p>
+                        <p>47</p>
+                        <p>32</p>
+                    </div>
+                    <div class="binary-text">0000&nbsp&nbsp&nbsp0000&nbsp&nbsp&nbsp1000&nbsp&nbsp&nbsp0111&nbsp&nbsp&nbsp0001&nbsp&nbsp&nbsp1011&nbsp&nbsp&nbsp1011&nbsp&nbsp&nbsp0111</div>
+                    <div class="decimal">
+                        <p>31</p>
+                        <p>15</p>
+                        <p>0</p>
+                    </div>
+                </div>
+                <aside>
+                    <div class="numeric-system">
+                        <input type="radio" name="num system" value="hex">
+                        Hex<br>
+                        <input type="radio" name="num system" value="Dec" checked>
+                        Dec<br>
+                        <input type="radio" name="num system" value="Oct">
+                        Oct<br>
+                       <input type="radio" name="num system" value="bin">
+                        Bin<br>
+                    </div>
+                    <div class="bytes">
+                        <input type="radio" name="bytes" value="qword" checked>
+                        Qword<br>
+                        <input type="radio" name="bytes" value="dword">
+                        Dword<br>
+                        <input type="radio" name="bytes" value="word">
+                        Word<br>
+                       <input type="radio" name="bytes" value="byte">
+                        Byte<br>
+                    </div>
+                </aside>
+                <div class="buttons">
+                    <div class="row">
+                        <button type="button" class="button normal">&nbsp</button>
+                        <button type="button" class="button awesome epic">Mod</button>
+                        <button type="button" class="button faded">A</button>
+                        <button type="button" class="button awesome">MC</button>
+                        <button type="button" class="button awesome">MR</button>
+                        <button type="button" class="button awesome">MS</button>
+                        <button type="button" class="button awesome">M+</button>
+                        <button type="button" class="button awesome">M-</button>
+                    </div>
+                     <div class="row">
+                        <button type="button" class="button awesome epic">(</button>
+                        <button type="button" class="button awesome epic">)</button>
+                        <button type="button" class="button faded">B</button>
+                        <button type="button" class="button awesome epic">&#8592;</button>
+                        <button type="button" class="button awesome epic">CE</button>
+                        <button type="button" class="button awesome epic">C</button>
+                        <button type="button" class="button awesome epic">&plusmn;</button>
+                        <button type="button" class="button awesome">&radic;</button>
+                    </div>
+                     <div class="row">
+                        <button type="button" class="button awesome epic">RoL</button>
+                        <button type="button" class="button awesome epic">RoR</button>
+                        <button type="button" class="button faded">C</button>
+                        <button type="button" class="button awesome epic">7</button>
+                        <button type="button" class="button awesome epic">8</button>
+                        <button type="button" class="button awesome epic">9</button>
+                        <button type="button" class="button awesome epic">&frasl;</button>
+                        <button type="button" class="button awesome">%</button>
+                    </div>
+                     <div class="row">
+                        <button type="button" class="button awesome epic">Or</button>
+                        <button type="button" class="button awesome epic">Xor</button>
+                        <button type="button" class="button faded">D</button>
+                        <button type="button" class="button awesome epic">4</button>
+                        <button type="button" class="button awesome epic">5</button>
+                        <button type="button" class="button awesome epic">6</button>
+                        <button type="button" class="button awesome epic">*</button>
+                        <button type="button" class="button awesome">1/x</button>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="button awesome epic">Lsh</button>
+                        <button type="button" class="button awesome epic">Rsh</button>
+                        <button type="button" class="button faded">E</button>
+                        <button type="button" class="button awesome epic">1</button>
+                        <button type="button" class="button awesome epic">2</button>
+                        <button type="button" class="button awesome epic">3</button>
+                        <button type="button" class="button awesome epic">-</button>
+                    </div>
+                        <button type="button" class="button awesome epic equals">=</button>
+                    <div class="row">
+                        <button type="button" class="button awesome epic">Not</button>
+                        <button type="button" class="button awesome epic">And</button>
+                        <button type="button" class="button faded">F</button>
+                        <button type="button" class="button awesome epic zero">0</button>
+                        <button type="button" class="button faded">.</button>
+                        <button type="button" class="button awesome epic">+</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

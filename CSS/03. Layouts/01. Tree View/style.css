@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul>li>ul {
+    display: none;
+    color: #d9d9d9;
+}
+
+ul>li:hover::first-line {
+    text-decoration: underline;
+}
+
+li:hover>ul {
+    display: block;
+}
+
+

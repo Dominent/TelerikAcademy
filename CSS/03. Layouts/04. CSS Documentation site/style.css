@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 795px;
+    height: 690px;
+    background: #F1F1F1;
+    border: 1px solid #a2a2a2;
+}
+
+nav {
+    float: left;
+}
+
+aside {
+    float: left;
+}
+
+/*-------------------------   Section   ------------------------- */
+section {
+    width: 500px;
+    float: left;
+    background: #FFFFFF;
+    border: 1px solid #a2a2a2;
+}
+
+.buttons {
+    margin: 5px 5px;
+}
+
+.buttons>button {
+    background: #fff;
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+}
+
+.leftArrow {
+    float: left;
+}
+
+.rightArrow {
+    float: right;
+}
+
+section > header >h1 {
+    margin: 22px 5px;
+}
+
+section > hr {
+    background: #909090;
+    margin: 0 5px;
+}
+
+#articleWithImage > h4 {
+    background: #808080;
+    color: #fff;
+    margin: 5px 5px;
+}
+
+#articleWithImage > img {
+     margin: 5px 5px;
+     float: left;
+}
+
+#articleWithImage > div > p {
+    float: right;
+    width: 370px;
+    text-align: justify;
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#articleWithImage > div > a {
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+#articleWithImage > div > a:active,
+#articleWithImage > div > a:visited,
+#articleWithImage > div > a:hover {
+    color: #a63c3a;
+}
+
+article > a:active,
+article > a:visited,
+article > a:hover {
+    color: #a63c3a;
+}
+
+article > a {
+    font-size: 14px;
+    margin: 10px 5px;
+}
+
+section > article > h4 {
+    background: #808080;
+    color: #fff;
+    margin: 5px 5px;
+}
+
+section > article > p {
+    font-size: 14px;
+    margin: 10px 5px;
+}
+
+.hr-top {
+    margin-top: 10px;
+}
+
+.hr-bottom {
+    margin-bottom: 40px;
+}
+
+/*-------------------------   Nav   ------------------------- */
+
+nav > img {
+    margin: 10px 0;
+}
+ul > li {
+    font-size: 13px;
+    color: #a63c3a;
+    font-weight: bold;
+}
+
+ul {
+    margin-bottom: 15px;
+    width: 140px;
+}
+
+ul>li>a {
+    color: #000;
+    text-decoration: none;
+    cursor: auto;
+    font-weight: normal;
+}
+
+/*-------------------------   Aside   ------------------------- */
+
+aside {
+    width: 150px;
+}
+
+aside > div > form > h4,
+aside > div  > h4 {
+    background: #808080;
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+aside > div > a >img {
+    margin-top: 5px;
+}
+
+aside > div> a {
+    font-size: 13px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    color: #a63c3a;
+}
+
+aside > div {
+    border: 1px solid #a2a2a2;
+    margin: 2px;
+    background: #fff;
+}
+
+input[type="search"]{
+    width: 70%;
+    margin: 5px;
+}
+
+.fix {
+    margin-top: -10px;
+}
+
+.fix-1 {
+    margin-top: -20px;
+}

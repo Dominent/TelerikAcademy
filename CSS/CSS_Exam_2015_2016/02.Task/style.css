@@ -1,0 +1,136 @@
+html, body {
+    font-family: 'Segoe UI', 'Segoe UI Web', 'Segoe UI Symbol', 'Helvetica Neue', 'BBAlpha Sans', 'S60 Sans', Arial, sans-serif;
+    /*background-color: #FFFFFF;*/
+    /*background: url("final.png") no-repeat;*/
+    padding: 0;
+    /*margin: 0 auto;*/
+    width: 1000px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 0;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#shellHeader {
+   margin-top: -10px;
+   margin-left: 0px;
+   padding: 0;
+   display: inline-block;
+    
+}
+
+#logo {
+    background: url("images/logo.png") no-repeat center;
+    display: inline-block;
+    background-size: 100%;
+    width: 170px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.separator {
+    width: 5px;
+    height: 45px;
+    background: #333;
+    display: inline-block;
+    margin: 11px -3px;
+}
+
+
+#headerTitle {
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    padding: 9px 10px;
+    float: right;
+    margin-right: 720px;
+    padding-right: 5px;
+    margin-top: 8px;
+    letter-spacing: 0.2px;
+}
+
+#search {
+    height:  65px;
+    background: #0078D7;
+    margin: 0px 5px;
+    margin-top: -3px;
+}
+
+#search > input {
+    height: 35px;
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+#main > h1 {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: none;
+    font-size:  30px;
+}
+
+#main > h2 {
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: -18px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #333;
+}
+
+hr {
+    display: none;
+}
+
+#main > p {
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 5px;
+}
+
+#footer {
+    background: #505050;
+    height: 60px;
+    margin-left: 3px;
+    margin-top: 28px;
+    font-size: 14px;
+    color: #CCC;
+}
+
+#language {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#copyright {
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+#footerMenu {
+    display: inline-block;
+    margin-left: 315px;
+}
+
+#footerMenu > li {
+    list-style-type: none;
+    display: inline-block;
+ }
+ 
+ #footerMenu > li > a{
+     text-decoration: none;
+     color: #ccc;
+     font-size: 14px;
+ }
+ 
+ #footerMenu > li:nth-child(2) {
+     margin-left: 10px;
+ }
+ 
+  #footerMenu > li:nth-child(3) {
+      margin-left: 12px;
+  }
+ 

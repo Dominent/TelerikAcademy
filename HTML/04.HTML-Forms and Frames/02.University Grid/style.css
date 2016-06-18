@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+
+#student-table {
+    margin: 0 auto;
+    width: 623px;
+    height: 421px;
+}
+
+.change-page ul {
+    list-style: none;
+    float: left;
+}
+
+.change-page ul li {
+    display: inline;
+}
+
+#previous {
+    float: left;
+    margin-right: 5px;
+}
+
+#next {
+    margin-left: 5px;
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+#table-main {
+    width: 940px;
+    height: 680px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+#laptop-brands {
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 61px;
+}
+
+#laptop-brands ul {
+    list-style: none;
+}
+
+#laptop-brands li {
+    display: inline;
+}
+
+#laptop-brands li a {
+    font-size: 34px;
+    color: #00ADEF;
+    margin: 0 2px;
+}
+
+#table-inner-left {
+    border: 1px solid black;
+    margin: 0;
+}
+
+.store-item {
+    width: 290px;
+    height: 175px;
+}
+
+.store-item fieldset {
+    margin: 0 auto;
+}
+
+.store-item td {
+    width: 60%;
+    height: 100%;
+}
+
+
+.text {
+   text-align: left;
+}
+
+#parameter-select {
+    width: 315px;
+    height: 580px;
+}
+
+#parameter-select ul{
+    margin: 90px 15px;
+    list-style: none;
+}
+
+#parameter-select ul li {
+    margin: 30px;
+    width: 80%;
+}
+
+#parameter-select ul li input {
+    width: 80%;
+}

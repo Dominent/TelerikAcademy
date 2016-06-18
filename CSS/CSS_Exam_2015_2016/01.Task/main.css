@@ -1,0 +1,273 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   /*background: url("thor-pretty-hair-hover.png") no-repeat;*/
+   font-family: "Times New Roman";
+   font-size: 16px;
+   color: #000;
+}
+
+#root {
+    display: inline-block;
+ }
+
+.avengers {
+    display: inline-block;
+    margin-left: 3px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+ul > li {
+    display: inline;
+}
+
+.preview{
+    display: none; 
+}
+
+.name {
+    font-weight: bold;
+    padding: 10px 15px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-top-left-radius: 15px;
+    display: inline-block;
+    margin-left: -4px;
+    
+}
+
+/*.name::after{
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}*/
+
+.avengers > li:last-child>span {
+    border-right: 1px solid black;
+}
+
+#root > ul > li:nth-child(2) > span:hover{
+     border-bottom: 3px solid white;
+     background: #ccc;
+}
+
+#root > ul > li:nth-child(2) > span:hover + .preview{
+    display: flex;
+    background: #CCC;
+    width: 625px;
+    border: 3px solid black;
+    margin-left: -1px;
+    border-top: none;
+    position: fixed;
+}
+ 
+ #root > ul > li:nth-child(2) > div > img {
+     float: none;
+     display: block;
+     border-radius: 5px;
+     border: 5px solid #fff;
+     width: 400px;
+     height: 225px;
+     margin-left:15px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     float:left;
+}
+
+.skills > li::first-letter{
+    text-transform: uppercase;
+}
+
+.skills > li {
+    display: block;
+    margin-left: 41px;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.skills > li:nth-child(1){
+    margin-top: 55px;
+}
+
+#root > ul > li:nth-child(2) > div > ul > li:nth-child(1){
+    text-decoration: underline;
+}
+
+.skills > li{
+    text-align: justify;
+}
+/*--------------------------------------*/
+
+#root > ul > li:nth-child(6) > span:hover + .preview{
+    display: flex;
+    background: #CCC;
+    width: 625px;
+    border: 3px solid black;
+    margin-left: -1px;
+    border-top: none;
+    position: fixed;
+}
+
+ #root > ul > li:nth-child(6) > div > img {
+     float: none;
+     display: block;
+     border-radius: 5px;
+     border: 5px solid #fff;
+     width: 400px;
+     height: 225px;
+     margin-left:15px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     float:left;
+}
+
+#root > ul > li:nth-child(6) > div > ul > li{
+    margin-left: 60px;
+}
+
+#root > ul > li:nth-child(6) > span:hover{
+     border-bottom: 3px solid white;
+     background: #ccc;
+}
+
+
+/*--------------------------------------*/
+#root > ul > li:nth-child(1) > span:hover + .preview{
+    display: flex;
+    background: #CCC;
+    width: 625px;
+    border: 3px solid black;
+    margin-left: -1px;
+    border-top: none;
+    position: fixed;
+}
+
+ #root > ul > li:nth-child(1) > div > img {
+     float: none;
+     display: block;
+     border-radius: 5px;
+     border: 5px solid #fff;
+     width: 400px;
+     height: 225px;
+     margin-left:15px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     float:left;
+}
+
+#root > ul > li:nth-child(1) > div > ul > li{
+    text-align: center;
+}
+
+#root > ul > li:nth-child(1) > span:hover{
+     border-bottom: 3px solid white;
+     background: #ccc;
+}
+
+/*--------------------------------------*/
+#root > ul > li:nth-child(3) > span:hover + .preview{
+    display: flex;
+    background: #CCC;
+    width: 625px;
+    border: 3px solid black;
+    margin-left: -1px;
+    border-top: none;
+    position: fixed;
+}
+
+ #root > ul > li:nth-child(3) > div > img {
+     float: none;
+     display: block;
+     border-radius: 5px;
+     border: 5px solid #fff;
+     width: 400px;
+     height: 225px;
+     margin-left:15px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     float:left;
+}
+
+#root > ul > li:nth-child(3) > div > ul > li{
+    text-align: center;
+}
+
+#root > ul > li:nth-child(3) > span:hover{
+     border-bottom: 3px solid white;
+     background: #ccc;
+}
+
+/*--------------------------------------*/
+#root > ul > li:nth-child(4) > span:hover + .preview{
+    display: flex;
+    background: #CCC;
+    width: 625px;
+    border: 3px solid black;
+    margin-left: -1px;
+    border-top: none;
+    position: fixed;
+}
+
+ #root > ul > li:nth-child(4) > div > img {
+     float: none;
+     display: block;
+     border-radius: 5px;
+     border: 5px solid #fff;
+     width: 400px;
+     height: 225px;
+     margin-left:15px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     float:left;
+}
+
+#root > ul > li:nth-child(4) > div > ul > li{
+    text-align: center;
+}
+
+#root > ul > li:nth-child(4) > span:hover{
+     border-bottom: 3px solid white;
+     background: #ccc;
+}
+
+/*--------------------------------------*/
+#root > ul > li:nth-child(5) > span:hover + .preview{
+    display: flex;
+    background: #CCC;
+    width: 625px;
+    border: 3px solid black;
+    margin-left: -1px;
+    border-top: none;
+    position: fixed;
+}
+
+ #root > ul > li:nth-child(5) > div > img {
+     float: none;
+     display: block;
+     border-radius: 5px;
+     border: 5px solid #fff;
+     width: 400px;
+     height: 225px;
+     margin-left:15px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     float:left;
+}
+
+#root > ul > li:nth-child(5) > div > ul > li{
+    text-align: center;
+}
+#root > ul > li:nth-child(5) > span:hover{
+     border-bottom: 3px solid white;
+     background: #ccc;
+}

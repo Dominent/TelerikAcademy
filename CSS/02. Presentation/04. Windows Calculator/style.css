@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 13px/20px Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background: -webkit-linear-gradient(#bfdfff 0%, #f8fdff 29%, #c3dffc 31%, #b0d1f3 100%);
+    background: -o-linear-gradient(#bfdfff 0%, #f8fdff 29%, #c3dffc 31%, #b0d1f3 100%);
+    background: linear-gradient(#bfdfff 0%, #f8fdff 29%, #c3dffc 31%, #b0d1f3 100%);
+    width: 460px;
+    height: 430px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+#navigation {
+    height: 30px;
+}
+
+main {
+    background: -webkit-linear-gradient(#d9e4f1 0%, #d9e4f1 29%, #dbe6f2 31%, #dbe6f2 100%);
+    background: -o-linear-gradient(#d9e4f1 0%, #d9e4f1 29%, #dbe6f2 31%, #dbe6f2 100%);
+    background: linear-gradient(#d9e4f1 0%, #d9e4f1 29%, #dbe6f2 31%, #dbe6f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    width: 430px;
+    height: 390px;
+    margin: 0 auto;
+    margin-bottom: 9px;
+    border: 1px solid black;
+}
+
+#header-buttons {
+    display: inline;
+    float: right;
+    margin-right: 3px;
+}
+
+#header-buttons > img {
+    margin-left: -4px;
+}
+
+#title {
+    display: flex;
+    float: left;
+    margin: 5px 15px;
+    align-items: center
+}
+
+#title>p {
+    float: right;
+    margin-left: 5px;
+}
+
+#menu-header{
+    height: 20px;
+    background: -webkit-linear-gradient(#fbfcfe 0%, #e7ebf6 29%, #d3daed 31%, #e0e5f5 100%);
+    background: -o-linear-gradient(#fbfcfe 0%, #e7ebf6 29%, #d3daed 31%, #e0e5f5 100%);
+    background: linear-gradient(#fbfcfe 0%, #e7ebf6 29%, #d3daed 31%, #e0e5f5 100%); 
+    border-bottom: 1px solid #c1c5d1;
+}
+
+#menu-header > span > p {
+    display: inline;
+    text-decoration: underline;
+}
+
+#menu-header > span {
+    margin: 0 5px;
+}
+
+.output-window {
+    background: #E6EFFA;
+    width: 408px;
+    height: 54px;
+    margin: 14px auto 6px auto;
+    border: 1px solid #8e9cad;
+    border-radius: 5px;
+}
+
+.output-window > p {
+    margin-top: 20px;
+    float: right;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.binary {
+    height: 66px;
+    line-height: 12px;
+}
+
+.decimal {
+    color: #bfbbb1;
+}
+
+.decimal > p {
+    display: inline;
+}
+
+.decimal > p:first-child {
+    margin-left: 18px;
+    float: left;
+}
+
+.decimal > p:nth-child(2){
+     margin-left: 180px;
+}
+
+.decimal > p:last-child{
+    margin-right: 18px;
+    float: right;
+}
+
+.binary-text {
+    margin: 4px 12px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: #1e3b60;
+}
+
+aside {
+    float: left;
+    margin: 0 0 6px 9px;
+    width: 85px;
+}
+
+.numeric-system {
+    border: 1px solid #8e9cad;
+    display: inline;
+    float: left;
+    padding: 9px 33px 9px 7px;
+    border-radius: 5px;
+    background: #D9E4F1;
+}
+
+.bytes {
+    margin-top: 6px;
+    border: 1px solid #8e9cad;
+    display: inline;
+    float: left;
+    padding: 9px 20px 9px 7px;
+    border-radius: 5px;
+    background: #D9E4F1;
+}
+
+.row {
+    float: left;
+    display: inline;
+    margin-bottom: 5px;
+}
+
+.button {
+    background: none;
+    box-shadow: none;
+    border: 1px solid #93a0b1;
+    border-radius: 2px;
+    background: #d9e4f1;
+    width: 36px;
+    height: 30px;
+    margin-left: 1px;
+}
+
+.button:hover {
+    background: -webkit-linear-gradient(#fef3e7 0%, #fde4cb 50%, #fbd178 51%, #fcf3ab 100%);
+    background: -o-linear-gradient(#fef3e7 0%, #fde4cb 50%, #fbd178 51%, #fcf3ab 100%);
+    background: linear-gradient(#fef3e7 0%, #fde4cb 50%, #fbd178 51%, #fcf3ab 100%); 
+    outline: 1px solid #e9d856;
+    border: 1px solid #fbe772;
+}
+
+.awesome {
+    outline: 1px solid #93a0b1;
+    border: 1px solid #fff;
+}
+
+.faded {
+    border: 1px solid #c0cddc;
+}
+
+.epic {
+    background: -webkit-linear-gradient(#f0f6fb 0%, #e5ecf4 50%, #d5e0ed 51%, #d4e0ee 100%);
+    background: -o-linear-gradient(#f0f6fb 0%, #e5ecf4 50%, #d5e0ed 51%, #d4e0ee 100%);
+    background: linear-gradient(#f0f6fb 0%, #e5ecf4 50%, #d5e0ed 51%, #d4e0ee 100%);
+}
+
+.equals {
+    height: 65px;
+    float: right;
+    margin-right: 12px;
+}
+
+.zero {
+    width: 77px;
+}

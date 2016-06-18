@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Consolas, Edwardian Script ITC;
+    color: #0094ff;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h2::before {
+    content: "L";
+    font-family: Edwardian Script ITC;
+    font-size: 3em;
+    font-weight: bold;
+}

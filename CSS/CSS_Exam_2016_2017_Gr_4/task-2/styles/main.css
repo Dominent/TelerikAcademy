@@ -1,0 +1,103 @@
+body, ul, li, img, h1{
+	margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    height: 225px;
+    width: 225px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+img {
+    display: block;
+}
+
+.description {
+    display: none;
+}
+
+img {
+    width: 225px;
+    height: 225px;
+    opacity: 0.5;
+}
+
+.hero-header {
+    color: #913D3D;
+    padding-top: 10px;
+    font-weight: bold;
+    background: black;
+    display: inline-block;
+    height: 30px;
+    width: 225px;
+    position: relative;
+    top: 40px;
+    opacity: 0.8;
+    font-family: sans-serif;
+}
+
+.superheroes {
+    float: left;
+    margin-top: -50px;
+    margin-left: 5px;
+}
+
+#site-header {
+    float: right;
+    margin-right: 360px;
+    text-shadow: 2px 2px #D18794;
+    color: #913D3D; 
+    font-family: sans-serif;
+    margin-top: 20px;
+    
+}
+
+#site-header::before {
+    display: flex;
+    float: left;
+    background: url("../imgs/logo.png") no-repeat center;
+    background-size: 100%;
+    width: 65px;
+    height: 30px;
+    content: "";
+    padding-top: 10px;
+    margin-right: 25px;
+}
+
+#site-header > span {
+    float: right;
+    font-weight: bold;
+}
+
+#root > ul > li:hover>.description {
+    display: block;
+    float: right;
+    position: absolute;
+    width: 400px;
+    margin-top: -150px;
+    margin-left: 240px;
+    text-align: justify;
+}
+
+#root > ul > li:nth-child(2):hover>.description{
+    margin-top: -378px;
+}
+
+#root > ul > li:nth-child(3):hover>.description{
+    margin-top: -600px;
+}
+
+#root > ul > li:nth-child(4):hover>.description{
+    margin-top: -840px;
+}
+
+#root > ul > li:hover > img {
+    opacity: 1;
+}

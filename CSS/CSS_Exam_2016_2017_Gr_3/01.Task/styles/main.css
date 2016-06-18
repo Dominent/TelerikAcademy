@@ -1,0 +1,87 @@
+/*----------------------------------------------------*/
+body, header, h1, h2, ul, li, p {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  display: inline-block;
+  list-style: none; }
+
+h1, h2, strong {
+  color: #ccc;
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px #353535; }
+
+#root {
+  width: 720px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  background: #777;
+  margin: 5px 5px; }
+
+img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px; }
+
+/*----------------------------------------------------*/
+p {
+  display: inline-block; }
+
+h1, h2 {
+  display: inline-block; }
+
+h2 {
+  text-decoration: underline;
+  float: right;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 15px; }
+
+#root > div > ul > li {
+  width: 335px;
+  height: 195px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow: 4px 4px #353535;
+  text-align: justify; }
+
+.header {
+  margin-top: 35px;
+  margin-left: 145px;
+  font-size: 28px; }
+
+.description {
+  margin: 0 30px;
+  margin-top: 20px; }
+
+/*----------------------------------------------------*/
+.remark {
+  display: none; }
+
+.container {
+  margin-top: 25px;
+  margin-left: 20px;
+  box-sizing: border-box; }
+
+/*----------------------------------------------------*/
+#root > div > ul > li:nth-child(1),
+#root > div > ul > li:nth-child(3) {
+  float: left; }
+
+#root > div > ul > li:nth-child(2),
+#root > div > ul > li:nth-child(4) {
+  float: right;
+  margin-right: 15px; }
+
+#root > div > ul > li:nth-child(1),
+#root > div > ul > li:nth-child(2) {
+  margin-bottom: 15px; }
+
+/*----------------------------------------------------*/
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 540px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+#first-name, 
+#last-name {
+    width: 90%;
+    padding: 0 10px;
+}
+
+textarea {
+    width: 280px;
+    height: 80px;
+}
+
+#city {
+    width: 185px;
+    height: 24px;
+}
+
+#state {
+    width: 40px;
+    height: 20px;
+}
+
+#state-label {
+    padding: 10.5px 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#postal-code {
+    width: 80px;
+}
+
+#phone,
+#phone1 {
+    width: 55px;
+}
+
+#phone2 {
+    width: 120px;
+}
+
+#month,
+#day {
+    width: 30px;
+}
+
+#year {
+    width: 45px;
+}
+
+#footer {
+    background-color: #d1ede1;
+}
+
+.starting-date-text {
+   margin: 0 6px;
+}
+
