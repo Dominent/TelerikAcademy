@@ -1,5 +1,4 @@
 function solve(args) {
-    args = args[0].split('\n');
     var n = +args[0];
     args = args[1].split(' ');
 

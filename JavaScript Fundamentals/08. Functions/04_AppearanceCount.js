@@ -1,7 +1,7 @@
 function solve(args) {
-    args = args[0].split('\n');
     var n = +args[0];
-    var x = +args[args.length - 1];
+    var x = +args[2];
+      
     args = args[1].split(' ');
 
     var count = 0;
