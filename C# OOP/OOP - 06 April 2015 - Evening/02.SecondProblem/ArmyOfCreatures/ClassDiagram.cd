@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ArmyOfCreatures.Extended.BattleManagerExt" Collapsed="true">
+    <Position X="11.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Extended\BattleManagerExt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.CreaturesFactoryExt" Collapsed="true">
+    <Position X="14.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\CreaturesFactoryExt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Creatures.AncientBehemoth" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\Creatures\AncientBehemoth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Creatures.CyclopsKing" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\Creatures\CyclopsKing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Creatures.Goblin" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\Creatures\Goblin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Creatures.Griffin" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\Creatures\Griffin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Creatures.WolfRaider" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\Creatures\WolfRaider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Logic.Specialties.AddAttackWhenSkip" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Extended\Specialties\AddAttackWhenSkip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Logic.Specialties.DoubleAttackWhenAttacking" Collapsed="true">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Extended\Specialties\DoubleAttackWhenAttacking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Specialties.DoubleDamage" Collapsed="true">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Extended\Specialties\DoubleDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Logic.Creatures.Creature" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQCAAAAAEAAAQIAAAAIAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Logic\Creatures\Creature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Logic.Specialties.Specialty" Collapsed="true">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAgAAAAAAAEEAAAAAACAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Logic\Specialties\Specialty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Logic.Battles.BattleManager" Collapsed="true">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAACAAAAAAACgMQAAEAAAAAAAAQAEAA=</HashCode>
+      <FileName>Logic\Battles\BattleManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ArmyOfCreatures.Logic.CreaturesFactory" Collapsed="true">
+    <Position X="14.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\CreaturesFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ArmyOfCreatures.Logic.ICreaturesFactory" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\ICreaturesFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ArmyOfCreatures.Logic.Battles.IBattleManager" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQAEAA=</HashCode>
+      <FileName>Logic\Battles\IBattleManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

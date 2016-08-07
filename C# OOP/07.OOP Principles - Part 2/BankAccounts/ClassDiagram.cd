@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BankAccounts.Models.Accounts.Absract.Account" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAABAAAAAAAAAAgACAAIAAEAAAABAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Accounts\Abstract\Account.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankAccounts.Customers.Company" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Customers\Company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankAccounts.Customers.Abstract.Customer" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAEAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Customers\Abstract\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankAccounts.Customers.Individual" Collapsed="true">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Customers\Individual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankAccounts.Models.Accounts.Loan" Collapsed="true">
+    <Position X="13.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Accounts\Loan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankAccounts.Models.Accounts.Mortgage" Collapsed="true">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Accounts\Mortgage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankAccounts.Models.Accounts.Deposit" Collapsed="true">
+    <Position X="16" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Accounts\Deposit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BankAccounts.Contracts.IAccount" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAgACAAAAAEAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Contracts\IAccount.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BankAccounts.Contracts.ICustomer" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ICustomer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BankAccounts.Contracts.IWithdraw" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IWithdraw.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
