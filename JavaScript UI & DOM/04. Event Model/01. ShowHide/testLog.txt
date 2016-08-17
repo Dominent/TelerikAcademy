@@ -1,0 +1,111 @@
+
+
+  Task #1 Tests
+    Valid Tests
+      √ expect nothing to change, whenm no elements with class `button` or `content`
+      1) expect to change the content of all `.button` to "hide"
+      2) expect to hide the next content on button click, and then show it again, when there are other elements
+      3) expect to hide the next content on button click, and then show it again
+    Invalid
+      4) Expect to throw, when no params are provided
+      5) Expect to throw, when undefined is provided as selector
+      6) Expect to throw, when null is provided as selector
+      7) Expect to throw, when selector that selects nothing is provided
+
+
+  1 passing (257ms)
+  7 failing
+
+  1) Task #1 Tests Valid Tests expect to change the content of all `.button` to "hide":
+
+      AssertionError: expected '' to equal 'hide'
+      + expected - actual
+
+      +hide
+      
+      at Context.<anonymous> (C:\Users\Domi\Desktop\JavaScript UI & DOM\08. Event Model\01. ShowHide\test\task-1-tests.js:63:38)
+      at callFn (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:326:21)
+      at Test.Runnable.run (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:319:7)
+      at Runner.runTest (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:422:10)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:528:12
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:342:14)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:352:7
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:284:14)
+      at Immediate._onImmediate (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:320:5)
+
+  2) Task #1 Tests Valid Tests expect to hide the next content on button click, and then show it again, when there are other elements:
+     TypeError: Failed to execute 'initMouseEvent' on 'MouseEvent': 15 arguments required, but only 3 present.
+      at MouseEvent.initMouseEvent (C:\Users\Domi\Desktop\JavaScript UI & DOM\08. Event Model\01. ShowHide\node_modules\jsdom\lib\jsdom\living\generated\MouseEvent.js:49:11)
+      at Context.<anonymous> (C:\Users\Domi\Desktop\JavaScript UI & DOM\08. Event Model\01. ShowHide\test\task-1-tests.js:121:13)
+      at callFn (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:326:21)
+      at Test.Runnable.run (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:319:7)
+      at Runner.runTest (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:422:10)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:528:12
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:342:14)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:352:7
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:284:14)
+      at Immediate._onImmediate (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:320:5)
+
+  3) Task #1 Tests Valid Tests expect to hide the next content on button click, and then show it again:
+     TypeError: Failed to execute 'initMouseEvent' on 'MouseEvent': 15 arguments required, but only 3 present.
+      at MouseEvent.initMouseEvent (C:\Users\Domi\Desktop\JavaScript UI & DOM\08. Event Model\01. ShowHide\node_modules\jsdom\lib\jsdom\living\generated\MouseEvent.js:49:11)
+      at Context.<anonymous> (C:\Users\Domi\Desktop\JavaScript UI & DOM\08. Event Model\01. ShowHide\test\task-1-tests.js:170:13)
+      at callFn (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:326:21)
+      at Test.Runnable.run (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:319:7)
+      at Runner.runTest (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:422:10)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:528:12
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:342:14)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:352:7
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:284:14)
+      at Immediate._onImmediate (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:320:5)
+
+  4) Task #1 Tests Invalid Expect to throw, when no params are provided:
+     AssertionError: expected [Function: test] to throw an error
+      at Context.<anonymous> (C:\Users\Domi\Desktop\JavaScript UI & DOM\08. Event Model\01. ShowHide\test\task-1-tests.js:188:28)
+      at callFn (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:326:21)
+      at Test.Runnable.run (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:319:7)
+      at Runner.runTest (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:422:10)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:528:12
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:342:14)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:352:7
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:284:14)
+      at Immediate._onImmediate (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:320:5)
+
+  5) Task #1 Tests Invalid Expect to throw, when undefined is provided as selector:
+     AssertionError: expected [Function: test] to throw an error
+      at Context.<anonymous> (C:\Users\Domi\Desktop\JavaScript UI & DOM\08. Event Model\01. ShowHide\test\task-1-tests.js:196:28)
+      at callFn (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:326:21)
+      at Test.Runnable.run (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:319:7)
+      at Runner.runTest (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:422:10)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:528:12
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:342:14)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:352:7
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:284:14)
+      at Immediate._onImmediate (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:320:5)
+
+  6) Task #1 Tests Invalid Expect to throw, when null is provided as selector:
+     AssertionError: expected [Function: test] to throw an error
+      at Context.<anonymous> (C:\Users\Domi\Desktop\JavaScript UI & DOM\08. Event Model\01. ShowHide\test\task-1-tests.js:203:28)
+      at callFn (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:326:21)
+      at Test.Runnable.run (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:319:7)
+      at Runner.runTest (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:422:10)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:528:12
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:342:14)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:352:7
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:284:14)
+      at Immediate._onImmediate (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:320:5)
+
+  7) Task #1 Tests Invalid Expect to throw, when selector that selects nothing is provided:
+     AssertionError: expected [Function: test] to throw an error
+      at Context.<anonymous> (C:\Users\Domi\Desktop\JavaScript UI & DOM\08. Event Model\01. ShowHide\test\task-1-tests.js:210:28)
+      at callFn (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:326:21)
+      at Test.Runnable.run (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:319:7)
+      at Runner.runTest (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:422:10)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:528:12
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:342:14)
+      at C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:352:7
+      at next (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:284:14)
+      at Immediate._onImmediate (C:\Users\Domi\AppData\Roaming\npm\node_modules\mocha\lib\runner.js:320:5)
+
+
+

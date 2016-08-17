@@ -1,0 +1,20 @@
+{
+  "name": "showhide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/tasks/task-1.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "jquery": "^3.1.0",
+    "jsdom": "^9.4.1",
+    "mocha": "^2.5.3"
+  }
+}
